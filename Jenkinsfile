@@ -8,7 +8,7 @@ pipeline {
        stage('Build') {
            steps {
                script{
-                   echo "Hello World!"    
+                   echo "Hello World!"         
                    bat "docker ps" 
                    bat "kubectl get nodes"   
                }
