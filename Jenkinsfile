@@ -9,7 +9,7 @@ pipeline {
            steps {
                script{
                    echo "Hello World!"         
-                   bat "docker ps" 
+                   bat "docker run hello-world" 
                    bat "kubectl get nodes"   
                }
            }
